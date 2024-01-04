@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;700&family=Long+Cang&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero {
+	background: url('https://images.unsplash.com/34/BA1yLjNnQCI1yisIZGEi_2013-07-16_1922_IMG_9873.jpg');
+	background-size: cover;
+}
+
+.hand {
+	font-family: 'Long Cang', cursive;
+}
