@@ -2,9 +2,18 @@
 export default {
 	content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
 	theme: {
-		extend: {},
+		extend: {
+			colors: {
+				newblack: {
+					900: '#1b1a1e',
+				},
+				grass: {
+					500: '#40BD77',
+				},
+			},
+		},
 		fontFamily: {
-			body: ['"Figtree"'],
+			sans: ['"Figtree"'],
 		},
 	},
 	plugins: [],
