@@ -4,56 +4,42 @@
 @tailwind utilities;
 
 @layer base {
-	.font-outline-1 {
-		text-shadow:
-			1px 1px 0 #fff,
-			-1px 1px 0 #fff,
-			-1px -1px 0 #fff,
-			1px -1px 0 #fff;
-		color: #1b1a1e;
+	body {
+		text-rendering: optimizeLegibility;
+		-webkit-font-smoothing: antialiased;
 	}
-}
 
-body {
-	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased;
-}
-
-.dark {
-	background-color: #1b1a1e;
-	color: #ffffff;
-}
-
-.half {
-	width: 50%;
-	opacity: 0;
-	animation: fadeIn 1s ease-in-out forwards;
-}
-
-.half.right {
-	animation-delay: 0.5s;
-}
-
-@keyframes fadeIn {
-	to {
-		opacity: 1;
+	.dark {
+		background-color: #1b1a1e;
+		color: #ffffff;
 	}
-}
 
-@keyframes slideDown {
-	from {
-		transform: translateY(-100%);
+	.half {
+		width: 50%;
+		opacity: 0;
+		animation: fadeIn 1s ease-in-out forwards;
 	}
-	to {
-		transform: translateY(0);
+
+	.half.right {
+		animation-delay: 0.5s;
 	}
-}
 
-.navbar {
-	animation: slideDown 4s ease forwards;
-}
+	@keyframes fadeIn {
+		to {
+			opacity: 1;
+		}
+	}
 
-.work svg {
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	@keyframes slideDown {
+		from {
+			transform: translateY(-100%);
+		}
+		to {
+			transform: translateY(0);
+		}
+	}
+
+	.navbar {
+		animation: slideDown 4s ease forwards;
+	}
 }
