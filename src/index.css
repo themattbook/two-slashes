@@ -19,11 +19,6 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
-.hero {
-	background: url('https://images.unsplash.com/photo-1607799279861-4dd421887fb3?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-	background-size: cover;
-}
-
 .dark {
 	background-color: #1b1a1e;
 	color: #ffffff;
@@ -55,5 +50,10 @@ body {
 }
 
 .navbar {
-	animation: slideDown 1.5s ease forwards;
+	animation: slideDown 4s ease forwards;
+}
+
+.work svg {
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }

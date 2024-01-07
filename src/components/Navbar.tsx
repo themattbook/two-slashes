@@ -1,6 +1,6 @@
 function Navbar() {
 	return (
-		<div className="navbar fixed top-0 flex w-full p-4">
+		<div className="navbar fixed top-0 flex w-full bg-white p-4 opacity-90 dark:bg-newblack-900">
 			<div className="mx-auto flex h-full w-5/6 items-center">
 				<div className="flex h-8 w-8 items-center justify-center rounded-full bg-gradient-to-r from-sky-500 to-purple-500 shadow-md">
 					<h1 className="text-xl font-bold text-white">//</h1>

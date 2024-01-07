@@ -1,11 +1,9 @@
-import { SiJavascript } from 'react-icons/si';
-
 function Hero() {
 	return (
 		<div className="flex h-screen">
 			<div className="mx-auto flex h-full w-5/6 items-center">
-				<div className="half left flex h-full w-1/2 items-center p-4">
-					<div>
+				<div className="half left flex h-full w-1/2 flex-col justify-center p-4">
+					<div className="w-full">
 						<h1 className="text-5xl font-bold">
 							Hello, world! I&apos;m
 						</h1>
@@ -16,7 +14,7 @@ function Hero() {
 							FullStack Developer
 						</h1>
 						<div className="w-5/6 pt-5">
-							<h3 className="text-lg">
+							<h3 className="text-lg font-medium">
 								Crafting innovative solutions for design
 								challenges, sculpting intelligent user
 								interfaces with meaningful interactions, and
@@ -30,7 +28,7 @@ function Hero() {
 					</div>
 				</div>
 				<div className="half right flex h-full w-1/2 items-center p-4">
-					<img src="/computer.svg" alt="javascript" className="" />
+					<img src="/computer.svg" alt="computer" />
 				</div>
 			</div>
 		</div>
