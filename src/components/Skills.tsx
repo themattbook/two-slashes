@@ -16,7 +16,7 @@ import {
 function Skills() {
 	return (
 		<section className="skills flex h-screen flex-col items-center justify-center">
-			<div className="mb-24 flex w-1/2 flex-col items-center justify-center">
+			<div className="mb-24 flex w-1/3 flex-col items-center justify-center">
 				<h1 className="text-sm uppercase">
 					Every challenge is an opportunity to showcase your
 					excellence.
@@ -33,7 +33,7 @@ function Skills() {
 					table.
 				</p>
 			</div>
-			<div className="flex w-5/12 flex-col text-newblack-900 opacity-80">
+			<div className="flex w-1/3 flex-col text-newblack-900 opacity-80">
 				<div className="flex w-full flex-wrap justify-evenly">
 					<div className="flex flex-col items-center justify-center p-3 font-medium">
 						<SiJavascript className="text-5xl" />
@@ -63,12 +63,12 @@ function Skills() {
 						<SiHtml5 className="text-5xl" />
 						<p className="mt-1">HTML</p>
 					</div>
+				</div>
+				<div className="flex w-full flex-wrap justify-evenly">
 					<div className="flex flex-col items-center justify-center p-3 font-medium">
 						<SiCss3 className="text-5xl" />
 						<p className="mt-1">CSS</p>
 					</div>
-				</div>
-				<div className="flex w-full flex-wrap justify-evenly">
 					<div className="flex flex-col items-center justify-center p-3 font-medium">
 						<SiSass className="text-5xl" />
 						<p className="mt-1">Sass</p>
