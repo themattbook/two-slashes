@@ -1,6 +1,6 @@
 function Hero() {
 	return (
-		<div className="flex h-screen">
+		<main className="flex h-screen">
 			<div className="mx-auto flex h-full w-5/6 items-center">
 				<div className="half left flex h-full w-1/2 flex-col justify-center p-4">
 					<div className="w-full">
@@ -28,10 +28,10 @@ function Hero() {
 					</div>
 				</div>
 				<div className="half right flex h-full w-1/2 items-center p-4">
-					<img src="/computer.svg" alt="computer" />
+					<img src="/computer.svg" alt="computer mx-auto" />
 				</div>
 			</div>
-		</div>
+		</main>
 	);
 }
 
