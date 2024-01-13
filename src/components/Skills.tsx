@@ -33,38 +33,38 @@ function Skills() {
 					table.
 				</p>
 			</div>
-			<div className="flex w-1/3 flex-col text-newblack-900 opacity-80">
-				<div className="flex w-full flex-wrap justify-evenly">
+			<div className="flex w-1/3 flex-col opacity-80">
+				<div className="flex w-full flex-wrap justify-between">
 					<div className="flex flex-col items-center justify-center p-3 font-medium">
-						<SiJavascript className="text-5xl" />
+						<SiJavascript className="text-4xl" />
 						<p className="mt-1">Javascript</p>
 					</div>
 					<div className="flex flex-col items-center justify-center p-3 font-medium">
-						<SiTypescript className="text-5xl" />
+						<SiTypescript className="text-4xl" />
 						<p className="mt-1">TypeScript</p>
 					</div>
 					<div className="flex flex-col items-center justify-center p-3 font-medium">
-						<SiPython className="text-5xl" />
+						<SiPython className="text-4xl" />
 						<p className="mt-1">Python</p>
 					</div>
 					<div className="flex flex-col items-center justify-center p-3 font-medium">
-						<SiReact className="text-5xl" />
+						<SiReact className="text-4xl" />
 						<p className="mt-1">React</p>
 					</div>
 					<div className="flex flex-col items-center justify-center p-3 font-medium">
-						<SiVuedotjs className="text-5xl" />
+						<SiVuedotjs className="text-4xl" />
 						<p className="mt-1">Vue</p>
 					</div>
 					<div className="flex flex-col items-center justify-center p-3 font-medium">
-						<SiNodedotjs className="text-5xl" />
+						<SiNodedotjs className="text-4xl" />
 						<p className="mt-1">Nodejs</p>
 					</div>
 					<div className="flex flex-col items-center justify-center p-3 font-medium">
-						<SiHtml5 className="text-5xl" />
+						<SiHtml5 className="text-4xl" />
 						<p className="mt-1">HTML</p>
 					</div>
 				</div>
-				<div className="flex w-full flex-wrap justify-evenly">
+				<div className="flex w-full flex-wrap justify-between">
 					<div className="flex flex-col items-center justify-center p-3 font-medium">
 						<SiCss3 className="text-5xl" />
 						<p className="mt-1">CSS</p>
